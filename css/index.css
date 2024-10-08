@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    }
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*CABEÇALHO*/
+header{
+    margin: 30px 0;
+    width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo-empresa {
+    width: 264px;
+}
+ul{
+    margin-right: 70px;
+    display: flex;
+    gap: 24px;
+}
+
+a{
+    font-size: 16px;
+    color: black;
+}
+
+.btn-faleConosco{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 168px;
+    height: 50px;
+    color: white;
+    background-color: #f00;
+
+}
+
+/*PRIMEIRA DOBRA*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #666;
+
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 0.9
+}
+#text-hero{
+    padding-top:20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.hero{
+    display: flex;
+    border-radius: 83px;
+    background-color: red;
+    align-items: center;
+    
+    flex-direction: column;
+    background-image: url(/img/bg-energia\ solar.webp);
+    width: 1080px;
+    height: 516px;
+}
+
+/*QUEM SOMOS*/
+
+#page-quemSomos{
+    background-image: url(/img/bg-energia\ solar.webp)    ;
+    background-size: cover;
+}
+
+#page-quemSomos{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+#text-quem-somos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#title-quem-somos{
+    color: black  ;
+}
+.quemSomos {
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+.itens-comoFunciona{
+    display: flex;
+    margin-top: 50px;
+    width: 1080px   ;
+}
+.como-funciona{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    width: 551px;
+    padding-left: 20px  ;
+    gap: 10px;
+}
+.imgComoFunciona{
+    width: 551px;
+    height: 264px;
+    border-radius: 10px;
+}
+#title-como-funciona{
+    font-size: 30px;
+}
+
+#text-como-funciona{
+    font-size: 18px;
+}
+
+.btn-Orçamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 240px;
+    height: 50px;
+    color: white;
+    background-color: #f00;
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+    width: 1080px;
+}
+#card{
+    padding: 20px;
+    width: 360px;
+    height: 190px;
+    background-color:rgb(252, 252, 252);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);    
+    border-radius: 10px;
+
+}
+span{
+    display: flex;
+    align-items: start;
+    font-size: 20px;
+    gap: 20px   ;
+}
+
+li{
+    font-size: 16px;
+    margin:5px 60px;   
+}
+
+
+.section-parceiro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.title-parceiro{
+    color: black;
+}
+
+.img-parceiros{
+    border-radius: 10px;
+    border: solid 1px #666666;
+    padding-inline: 30px;
+    
+}
+footer{
+    display: flex ;
+    align-items: center;
+    flex-direction: column;
+    
+   background-color:  black;
+    width:100%;
+    height: 220px;
+    margin-top: 50px;
+}
+.footer{
+display:flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: solid 1px #f00;
+    height: 50%;
+    width: 1080px;
+}
+.end, .insta{
+    padding-top: 50px;
+}
+
+.container-copyRight{
+    display: flex;
+    align-items: start  ;
+    width: 1080px;
+    padding-top: 20px;
+}
+.copyRight{
+    display: flex;
+    align-items: start;
+    color: white;
+    font-style: italic;
+    
+}
