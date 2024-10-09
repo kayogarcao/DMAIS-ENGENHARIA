@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+
+/*---------------RESPONSIVO------------*/
+
+/*talet*/
+@media only screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+h2{
+    font-size: 1.5rem;
+}
+  h1{width: 80%;
+font-size: 3rem;}
+
+  main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  ul {
+    display: none;
+  }
+  .btn-Orçamento {
+    display: none;
+  }
+  .btn-faleConosco {
+    display: none;
+  }
+  .logo-empresa {
+    display: none;
+  }
+  .hero {
+    width: 100vw;
+  }
+  .placa-solar {
+    width: 80%;
+  }
+
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .itens-comoFunciona {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgComoFunciona,
+  .como-funciona {
+    width: 100%;
+  }
+  #page-quemSomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+  }
+  #text-quem-somos {
+    width: 70%;
+  }
+  .itens-comoFunciona {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .img-parceiros {
+    display: none;
+    width: 100%;
+  }
+  .container-copyRight,
+  .footer,
+  footer {
+    width: 100%;
+  }
+}
