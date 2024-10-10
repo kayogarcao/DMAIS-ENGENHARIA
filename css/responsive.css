@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
-
 /*---------------RESPONSIVO------------*/
 
 /*talet*/
@@ -8,12 +7,15 @@
   * {
     margin: 0;
     padding: 0;
+   
   }
-h2{
+  h2 {
     font-size: 1.5rem;
-}
-  h1{width: 80%;
-font-size: 3rem;}
+  }
+  h1 {
+    width: 80%;
+    font-size: 3rem;
+  }
 
   main {
     width: 100%;
@@ -41,46 +43,70 @@ font-size: 3rem;}
     display: none;
   }
   .hero {
-    width: 100vw;
+    width: 90vw;
   }
   .placa-solar {
-    width: 80%;
-  }
-
-  .cards {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .itens-comoFunciona {
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .imgComoFunciona,
-  .como-funciona {
-    width: 100%;
-  }
-  #page-quemSomos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: none;
-  }
-  #text-quem-somos {
     width: 70%;
   }
+
+  #page-quemSomos {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0;
+  }
+  #text-quem-somos {
+    width: 100%;
+  }
+  .itens-comoFunciona {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quemSomos {
+    width: 90%;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .imgComoFunciona {
+    width: 90%;
+  }
   .itens-comoFunciona {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
+    margin: 50px 0px;
   }
+
+  .como-funciona {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+  #title-como-funciona {
+    width: 90%;
+  }
+
+  #text-como-funciona {
+    font-size: 18px;
+    text-align: justify;
+    width: 90%;
+  }
+
+  .cards{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   }
+
+  .card{width: 305px;
+  padding: 20px 0 20px 20px ;}
+  
+  span, label { width: 100%;}
   .img-parceiros {
     display: none;
     width: 100%;
