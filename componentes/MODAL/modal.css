@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+*{
+   
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+.modal-image-text{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+.modal-image{
+    width: 50%;
+}
+
+
+.modal img {
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+   
+}
+
+.modal-text{
+    
+    width: 50%;
+    height: 100%;
+}
+#modal-description{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: none;
+}
+
+.close {
+    
+ 
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
