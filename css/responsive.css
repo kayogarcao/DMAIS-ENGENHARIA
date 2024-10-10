@@ -9,6 +9,7 @@
     padding: 0;
    
   }
+  main{ width: 100%;}
   h2 {
     font-size: 1.5rem;
   }
@@ -17,12 +18,7 @@
     font-size: 3rem;
   }
 
-  main {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
+  
   section {
     display: flex;
     flex-direction: column;
@@ -33,17 +29,20 @@
   ul {
     display: none;
   }
-  .btn-Orçamento {
+ 
+  .btn-faleConosco {
     display: none;
   }
-  .btn-faleConosco {
+  .btn-Orçamento {
     display: none;
   }
   .logo-empresa {
     display: none;
+    cursor: pointer;
   }
   .hero {
     width: 90vw;
+    height: 90% ;
   }
   .placa-solar {
     width: 70%;
@@ -100,20 +99,58 @@
     width: 375px;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    align-items: center;
+  
    }
 
   .card{width: 305px;
-  padding: 20px 0 20px 20px ;}
+  padding: 20px;}
   
-  span, label { width: 100%;}
-  .img-parceiros {
-    display: none;
-    width: 100%;
+  
+ .section-parceiro{
+
+  width: 100%;
+ }
+
+ .title-parceiro{
+  margin-bottom: 20px;
+
+ }
+ .img-parceiros{
+  display: none;}
+
+ .img-parceiros-mobile { 
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 80%;}
+
+  #img-parceiros-mobile{
+    width: 90%;
   }
-  .container-copyRight,
-  .footer,
-  footer {
-    width: 100%;
-  }
+
+  footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+.footer,.container-copyRight{
+  width: 100%;
+}
+
+
+.end, .insta{ font-size: 9px;
+}
+.end{
+  padding-left: 20px ;
+}
+.insta{ padding-right: 20px;}
+
+.container-copyRight{ 
+  flex-direction: column;
+  align-items: center;
+}}

@@ -1,0 +1,93 @@
+/*-----------MODAL*/
+
+.modal{ 
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ 
+  
+  
+    /* TAMANHO*/
+  
+ .modal-content{
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+ 
+ 
+  
+
+ }
+  
+  .modal-elementos {
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  
+  .modal-close {
+    display: flex ;
+    padding-right: 20px;
+    padding-top: 10px; 
+    cursor: pointer;
+    justify-content: flex-end;
+    width: 100%;
+    
+  }
+  #modal-icon-close{
+    width: 20px;
+  }
+  
+  .modal-textos {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modal-item-texto{
+    font-size: 18px;
+  }
+  
+  .modal-itens {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .modal-img {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  #modal-imagem {
+    height: 100%;
+    object-fit: cover;
+  }

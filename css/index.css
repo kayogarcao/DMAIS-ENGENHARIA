@@ -10,11 +10,13 @@
   font-style: normal;
   text-decoration: none;
 }
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 /*CABEÇALHO*/
 header {
   margin: 30px 0;
@@ -23,19 +25,30 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 .logo-empresa {
   width: 20%;
+
 }
+
 ul {
   margin-right: 70px;
   display: flex;
   gap: 24px;
 }
 
-a {
+.link {
   font-size: 16px;
-  color: black;
+  color: rgb(117, 117, 117);
 }
+
+.link:hover {
+  font-size: 16px;
+  color: rgb(25, 25, 25);
+  transition: 0.3s;
+}
+
+
 
 .btn-faleConosco {
   display: flex;
@@ -50,6 +63,12 @@ a {
   background-color: #f00;
 }
 
+.btn-faleConosco:hover {
+  color: white;
+  scale: 1.01;
+  background-color: rgb(255, 75, 75);
+}
+
 /*PRIMEIRA DOBRA*/
 
 section {
@@ -57,23 +76,27 @@ section {
   flex-direction: column;
   align-items: center;
 }
+
 h2 {
   font-size: 32px;
   font-weight: 400;
   color: #666;
 }
+
 h1 {
   text-align: center;
   font-size: 90px;
   font-weight: 500;
   line-height: 0.9;
 }
+
 #text-hero {
   padding-top: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 .hero {
   display: flex;
   border-radius: 83px;
@@ -85,8 +108,7 @@ h1 {
   width: 1080px;
   height: 516px;
 }
-.placa-solar {
-}
+
 /*QUEM SOMOS*/
 
 #page-quemSomos {
@@ -105,19 +127,23 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
+
 #title-quem-somos {
   color: black;
 }
+
 .quemSomos {
   margin-top: 10px;
-  width: 80%;
-  text-align: center;
+  width: 72%;
+  text-align: justify;
 }
+
 .itens-comoFunciona {
   display: flex;
   margin-top: 50px;
   width: 1080px;
 }
+
 .como-funciona {
   display: flex;
   align-items: left;
@@ -127,17 +153,20 @@ h1 {
   padding-left: 20px;
   gap: 10px;
 }
+
 .imgComoFunciona {
   width: 551px;
   height: 264px;
   border-radius: 10px;
 }
+
 #title-como-funciona {
   font-size: 30px;
 }
 
 #text-como-funciona {
   font-size: 18px;
+  text-align: justify ;
 }
 
 .btn-Orçamento {
@@ -153,26 +182,39 @@ h1 {
   background-color: #f00;
   margin-bottom: 30px;
 }
+
+.btn-Orçamento:hover {
+  color: white;
+  scale: 1.01;
+  background-color: rgb(255, 75, 75);
+}
+
 .cards {
   display: flex;
-  align-items: center;
   gap: 30px;
-  margin: 30px 0 ;
+  margin: 30px 0;
   width: 1080px;
 }
+
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   padding: 20px;
   width: 360px;
   height: 190px;
   background-color: rgb(252, 252, 252);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  cursor: pointer;
 }
+
 span {
   display: flex;
-  align-items: start;
+  align-items: end;
   font-size: 20px;
   gap: 20px;
+  
 }
 
 li {
@@ -195,6 +237,11 @@ li {
   border: solid 1px #666666;
   padding-inline: 30px;
 }
+
+.img-parceiros-mobile {
+  display: none;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -205,18 +252,17 @@ footer {
   height: 220px;
   margin-top: 50px;
 }
+
 .footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   color: white;
   border-bottom: solid 1px #f00;
   height: 50%;
   width: 1080px;
 }
-.end,
-.insta {
-  padding-top: 50px;
-}
+
 
 .container-copyRight {
   display: flex;
@@ -224,10 +270,22 @@ footer {
   width: 1080px;
   padding-top: 20px;
 }
+
 .copyRight {
   display: flex;
   align-items: start;
   color: white;
   font-style: italic;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#icon-instagram {
+  width: 25px;
+  filter: invert(1)
 }
 
