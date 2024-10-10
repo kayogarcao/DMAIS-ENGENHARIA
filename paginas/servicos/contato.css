@@ -1,0 +1,42 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+*{
+    padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  
+}
+
+/* Estilização básica do modal */
+.modal-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #b9b9b948 50%, #ffffff 50%);
+    width: 100vw;
+    height: 100vh;  
+}
+
+.modal-content-formulario {
+    
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+   
+}
+
+.close-formulario {
+    color: red;
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+}
+
